@@ -89,7 +89,9 @@ ul {
     font-weight: 500;
     line-height: 1.5; 
     letter-spacing: 0.02em;
-    transition-property: color, background-color;
+    transition-property: color, background-color, box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link:active {
@@ -138,7 +140,9 @@ ul {
     line-height: 1.5; 
     letter-spacing: 0.02em;
     gap: 40px;
-    transition-property: color, background-color;
+    transition-property: color, background-color, box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-connection:hover {
@@ -230,7 +234,9 @@ ul {
     margin-top: 0px;
     margin-right: auto;
     margin-left: auto;
-    transition-property: color, background-color;
+    transition-property: color, background-color, box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 .button-style:hover {
@@ -426,7 +432,9 @@ ul {
     fill: rgba(244, 244, 253, 1);
     background-color: rgba(77, 90, 229, 1);
     border-radius: 50%;
-    transition-property: color, background-color;
+    transition-property: color, background-color, box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .ellipse-plus-icons:hover{
@@ -463,7 +471,9 @@ ul {
     column-gap: 24px;
     overflow: hidden;
     position: relative;
-    transition-property: color, background-color;
+    transition-property: color, background-color, box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main-content-portfolio-item:hover{
@@ -536,7 +546,8 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     display: flex;
     align-items:flex-start;
     padding: 40px 32px;
-    transition-property: color, background-color;
+    transition-property: color, background-color, box-shadow;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main-content-portfolio-item:hover .overlay {
