@@ -254,6 +254,12 @@ ul {
     height: 112px;
 }
 
+.icon{
+    width: 64px;
+    height: 64px;
+
+}
+
 
 .visually-hidden {
     position: absolute;
