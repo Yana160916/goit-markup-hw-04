@@ -246,6 +246,11 @@ ul {
 }
 
 .content-info-icon{
+    width: 64px;
+    height: 64px;
+}
+
+.content-info-rectangle{
     background-color: #F4F4FD;
     border: 1px solid #4D5AE5;
     border-radius: 4px;
