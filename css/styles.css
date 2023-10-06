@@ -93,6 +93,18 @@ ul {
     line-height: 1.5; 
     letter-spacing: 0.02em;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+
+}
+
+.link::after{
+    content: '';
+    position: absolute; 
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
 }
 
 .link:active {
@@ -114,17 +126,7 @@ ul {
     gap: 40px;
     padding-top: 0px;
     margin-right: 0px;
-    position: relative;
     color: #404bbf;
-}
-
-.header-top:hover::after{
-    position: absolute; 
-    left: 0; 
-    bottom: -1px;
-    height: 4px; 
-    background-color: #404bbf;
-    border-radius: 2px;
 }
 
 
@@ -545,7 +547,7 @@ ul {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.main-content-portfolio-item:hover .overlay {
+.main-content-portfolio-item:hover .overlay-text{
     transform: translatey(0);
   }
 
@@ -566,9 +568,9 @@ ul {
 .footer-text{
     background-color: #2e2f42;
     padding: 100px 0;
-    align-items: center;
     padding-left: 156px;
     padding-right: 692px;
+    align-items: baseline,
 }
 
 .container-footer{
