@@ -475,6 +475,8 @@ ul {
     column-gap: 24px;
     row-gap: 48px;
     padding-left: 0px;
+    position: relative;
+    overflow: hidden;
     
 }
 
@@ -485,8 +487,8 @@ ul {
 }
 
 .main-content-portfolio-item:hover{
-box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-transform: translateY(0%);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    transform: translateY(0%);
 }
 
 .item-banking{
@@ -514,8 +516,7 @@ transform: translateY(0%);
     align-items: flex-start;
     width: 360px;
     height: 300px;
-    position: relative;
-    overflow: hidden;
+    
 }
 
 .main-content-portfolio-work{
