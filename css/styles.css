@@ -181,6 +181,11 @@ ul {
     padding: 24px 0;
 }
 
+.link-studio{
+    position: relative;
+    color: #404bbf;
+}
+
 .header .contacts-list .header-top{
     display: flex;
     gap: 40px;
@@ -547,7 +552,6 @@ ul {
     padding: 100px 0;
     padding-left: 156px;
     padding-right: 692px;
-    align-items: baseline,
 }
 
 .container-footer{
@@ -559,6 +563,7 @@ ul {
 
 .logo-plus-p{
     margin-right: 120px;
+    align-items: baseline,
 }
 
 .footer-text-end{
@@ -602,14 +607,6 @@ ul {
 .footer-social-media{
     width: 208px;
     flex-shrink: 0;
-}
-
-.social-media-icons{
-
-}
-
-.social-icons-footer{
-
 }
 
 .icons-ellipse-two{
