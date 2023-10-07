@@ -560,17 +560,13 @@ ul {
     padding: 100px 0;
 }
 
-.footer-container{
-    padding-left: 156px;
-    padding-right: 692px;
-}
-
 
 .container-footer{
     margin-right: 120px;
     display: flex;
     align-items: baseline;
-
+    padding-left: 156px;
+    padding-right: 692px;
 }
 
 .logo-plus-p{
